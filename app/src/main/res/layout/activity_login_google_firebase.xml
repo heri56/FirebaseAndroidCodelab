@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/colorPrimaryDark">
+    <ImageView
+        android:layout_gravity="center_horizontal"
+        android:scaleType="fitXY"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/octocat"
+        android:layout_marginBottom="30dp"/>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/email"
+            android:hint="email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/white"
+            android:textColorHint="@android:color/white"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:textColor="@color/white"
+            android:inputType="textPassword"
+            android:id="@+id/password"
+            android:hint="password"
+            android:textColorHint="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"/>
+    </android.support.design.widget.TextInputLayout>
+
+
+    <Button
+        android:text="Button login"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorAccent"
+        android:id="@+id/btnlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnresetpass"
+        android:textColor="@color/colorAccent"
+        android:text="Lupa Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@null"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/btnsignup"
+        android:textColor="@color/white"
+        android:text="Daftar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@null"
+        android:textAllCaps="false"/>
+</LinearLayout>
+    <ProgressBar
+        android:visibility="gone"
+        android:layout_gravity="center|bottom"
+        android:id="@+id/progressbar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="20dp"/>
+</android.support.design.widget.CoordinatorLayout>

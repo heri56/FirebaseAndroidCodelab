@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/Textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Shared Preference"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/Textview2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Textview"
+            android:layout_centerHorizontal="true"
+            android:text="Tutor Point"
+            android:textColor="#ff16ff01"
+            android:textSize="35sp" />
+
+        <EditText
+            android:id="@+id/edit_Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/Textview2"
+            android:hint="Name" />
+
+        <EditText
+            android:id="@+id/edit_Text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/edit_Text"
+            android:hint="Pass" />
+
+        <EditText
+            android:id="@+id/edit_Text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/edit_Text2"
+            android:hint="Email" />
+
+        <Button
+            android:id="@+id/Buttonsave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_Text3"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="12dp"
+            android:layout_marginTop="5dp"
+            android:keepScreenOn="true"
+            android:text="Save"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_Text3"
+            android:layout_margin="12dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/Buttonsave"
+            android:keepScreenOn="true"
+            android:onClick="ButtonTestFirebase"
+            android:text="Next"
+            android:textAllCaps="false" />
+        <Button
+            android:id="@+id/btnlain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_Text3"
+            android:layout_margin="12dp"
+            android:layout_marginTop="5dp"
+            android:layout_toLeftOf="@+id/Buttonsave"
+            android:keepScreenOn="true"
+            android:onClick="ButtonTestFirebase"
+            android:text="Login Firebase example"
+            android:textAllCaps="false" />
+    </RelativeLayout>
+</LinearLayout>

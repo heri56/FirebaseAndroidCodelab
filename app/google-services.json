@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "216761329013",
+    "firebase_url": "https://learnmessagefirebase.firebaseio.com",
+    "project_id": "learnmessagefirebase",
+    "storage_bucket": "learnmessagefirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216761329013:android:64e58dacc0483faa",
+        "android_client_info": {
+          "package_name": "com.google.firebase.udacity.friendlychat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "216761329013-tu2pcfj74ek271fkgnhtstvr45i8ga8e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.google.firebase.udacity.friendlychat",
+            "certificate_hash": "8a12b609cb3aa1dd316a0dbf03f7bd7513052162"
+          }
+        },
+        {
+          "client_id": "216761329013-1143ecciigcpnc988l5t4abv25gecr20.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9NaGDQXRYRbIfgukL6xzFdYw9Bh013is"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "216761329013-1143ecciigcpnc988l5t4abv25gecr20.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216761329013:android:bf34477b6dde3619",
+        "android_client_info": {
+          "package_name": "com.heri.firebaseandroidcodelab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "216761329013-l5ao2a7e3j8u038hltkbd8lm7so4um8j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.heri.firebaseandroidcodelab",
+            "certificate_hash": "8a12b609cb3aa1dd316a0dbf03f7bd7513052162"
+          }
+        },
+        {
+          "client_id": "216761329013-1143ecciigcpnc988l5t4abv25gecr20.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9NaGDQXRYRbIfgukL6xzFdYw9Bh013is"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "216761329013-1143ecciigcpnc988l5t4abv25gecr20.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
